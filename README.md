@@ -8,6 +8,7 @@ A simple IPA Signer based in Python Flask library, zsign and free CloudFlare tun
 - `zsign` command in `/usr/bin` or `/bin`
 - `cloudflared` command in `/usr/bin` or `/bin`
 - Python Flask library installed
+- Google Chrome installed in iDevice
 
 *Compiling `zsign`*
 
@@ -68,8 +69,6 @@ https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-
 
 9.- Download this shortcut `LINK_NOT_READY`
 
-**Warning**: The .p12 password must be hardcoded to the `firmador.py` script to work
-
 10.- In the server run `python3 firmador.py`
 
 11.- In the iDevice run the downloaded Shortcut
@@ -78,7 +77,7 @@ https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-
 
 13.- When the shortcut requests to select a file, you must select the desired IPA file
 
-14.- Enter the Bundle ID of the desired app when prompted by the shortcut
+14.- Enter the Bundle ID of the desired app and .p12 password when prompted by the shortcut
 
 15.- A confirmation will be prompted, confirm
 
