@@ -7,7 +7,7 @@ git clone https://github.com/zhlynn/zsign.git
 cd zsign/build/linux
 make clean && make
 cd $HOME/zsign/bin
-sudo mv /home/linuxbrew/.linuxbrew/bin/cloudflared $PREFIX/bin/cloudflared
+sudo mv /home/linuxbrew/.linuxbrew/opt/cloudflared/bin/cloudflared $PREFIX/bin/cloudflared
 sudo mv zsign $PREFIX/usr/bin
 sudo chmod +x $PREFIX/usr/bin/zsign
 sudo pip install Flask
